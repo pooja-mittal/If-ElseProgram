@@ -1,0 +1,38 @@
+import java.util.Scanner;
+class insurance
+{
+	public static void main(String[] args)
+	{
+		int basic=500;
+		int age;
+		int acc;
+		int total=0;
+		Scanner scr=new Scanner(System.in);
+		System.out.println("enter your age");
+		age=scr.nextInt();
+		if(age<25) {
+			total=total+basic+100;  //600
+			System.out.println("total insurance:  " + total);
+			System.out.println("number of accidents you have done");
+			acc=scr.nextInt();
+				 if (acc==1) {
+					 total=total+50;  // 650
+					 System.out.println("total insurance because of accident:  " + total);
+					} else if (acc==2) 	{
+						total=total+125;    //725
+						System.out.println("total insurance because of accident:  " + total);
+					} else if (acc==3) 	{
+							total=total+225; // 825
+							System.out.println("total insurance because of accident:  " + total);
+						} else if (acc==4) 	{
+								total=total+375; //975
+								System.out.println("total insurance because of accident:  " + total);
+							} else {
+								System.out.println("only this much of insurance:  " +total);
+								System.out.println("Due to more accidents no insurance");
+							}
+			} else {
+				System.out.println("only basic insurance:  " + basic);
+				}
+	}
+}

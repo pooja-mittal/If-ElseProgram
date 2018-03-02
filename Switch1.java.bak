@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Switch1
+{
+	public static void main(String[] args)
+	{
+		int a;
+		Scanner scr= new Scanner(System.in);
+		System.out.println("enter number between 1-7");
+		a=scr.nextInt();
+		switch(a)
+		{
+			case 1: System.out.println("monday");
+			case 1: System.out.println("monday");
+			case 1: System.out.println("monday");
+			case 1: System.out.println("monday");
+			case 1: System.out.println("monday");
+			case 1: System.out.println("monday");
+
+} 

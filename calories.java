@@ -23,6 +23,8 @@ class calories
 			System.out.println("your weight because of your inactiveness is:  " + total);
 		} else {
 			System.out.println("weight can't be calculated");
+			System.out.println("working in local");
+			
 		}
 	}
 }
